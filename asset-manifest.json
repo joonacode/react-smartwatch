@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-smartwatch/static/css/main.20c32c90.chunk.css",
+    "main.js": "/react-smartwatch/static/js/main.21ec6b53.chunk.js",
+    "main.js.map": "/react-smartwatch/static/js/main.21ec6b53.chunk.js.map",
+    "runtime-main.js": "/react-smartwatch/static/js/runtime-main.3fc50e70.js",
+    "runtime-main.js.map": "/react-smartwatch/static/js/runtime-main.3fc50e70.js.map",
+    "static/js/2.84eede2a.chunk.js": "/react-smartwatch/static/js/2.84eede2a.chunk.js",
+    "static/js/2.84eede2a.chunk.js.map": "/react-smartwatch/static/js/2.84eede2a.chunk.js.map",
+    "static/js/3.9a8c0b99.chunk.js": "/react-smartwatch/static/js/3.9a8c0b99.chunk.js",
+    "static/js/3.9a8c0b99.chunk.js.map": "/react-smartwatch/static/js/3.9a8c0b99.chunk.js.map",
+    "index.html": "/react-smartwatch/index.html",
+    "static/css/main.20c32c90.chunk.css.map": "/react-smartwatch/static/css/main.20c32c90.chunk.css.map",
+    "static/js/2.84eede2a.chunk.js.LICENSE.txt": "/react-smartwatch/static/js/2.84eede2a.chunk.js.LICENSE.txt",
+    "static/media/dark.676fe7ce.png": "/react-smartwatch/static/media/dark.676fe7ce.png",
+    "static/media/logo.4dea2f0d.svg": "/react-smartwatch/static/media/logo.4dea2f0d.svg",
+    "static/media/menu.70bddae8.svg": "/react-smartwatch/static/media/menu.70bddae8.svg",
+    "static/media/white.0dbf3865.png": "/react-smartwatch/static/media/white.0dbf3865.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fc50e70.js",
+    "static/js/2.84eede2a.chunk.js",
+    "static/css/main.20c32c90.chunk.css",
+    "static/js/main.21ec6b53.chunk.js"
+  ]
+}
