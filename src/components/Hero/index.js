@@ -42,28 +42,17 @@ const Hero = () => {
   return (
     <div className='container mx-auto lg:px-20 px-5 min-h-screen flex items-center justify-center hero-container'>
       <div className='flex md:justify-around md:flex-row flex-col justify-center items-center'>
-        <div className='md:block flex flex-col justify-center items-center '>
+        <div className='md:block flex flex-col justify-center items-center md:mb-40 mb-0'>
           <h1 className='font-extrabold sm:text-6xl text-4xl mb-3 font-markh'>
             Smartwatch
           </h1>
           <span className='tracking-widest uppercase text-red-300 sm:text-2xl text-lg font-markr'>
             Element Series
           </span>
-          <p className='mt-7 mb-8 text-gray-500 md:w-3/4 md:text-left text-center font-markr'>
+          <p className='mt-7 mb-8 text-gray-500 md:w-3/4 hero-desc md:text-left text-center font-markr'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             congue sed et leo, dignissim odio justo.
           </p>
-
-          <div className='text-black watch-list w-40'>
-            <Slider {...settings} asNavFor={nav2} ref={slider1}>
-              <WatchItem />
-              <WatchItem isDark={true} />
-              <WatchItem />
-              <WatchItem isDark={true} />
-              <WatchItem />
-              <WatchItem isDark={true} />
-            </Slider>
-          </div>
         </div>
         <div className='img-hero relative'>
           <Slider {...settings2} asNavFor={nav1} ref={slider2}>
@@ -98,6 +87,16 @@ const Hero = () => {
           >
             <FaAngleLeft />
           </span>
+        </div>
+        <div className='text-black watch-list w-40'>
+          <Slider {...settings} asNavFor={nav2} ref={slider1}>
+            <WatchItem />
+            <WatchItem isDark={true} />
+            <WatchItem />
+            <WatchItem isDark={true} />
+            <WatchItem />
+            <WatchItem isDark={true} />
+          </Slider>
         </div>
       </div>
     </div>

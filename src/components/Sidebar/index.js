@@ -18,8 +18,11 @@ const Sidebar = ({ toggleSidebar }) => {
   }, [])
 
   return (
-    <div className='text-white bg-sidebar h-full min-h-screen w-full absolute top-0 left-0 z-10'>
-      <div className='lg:w-1/4 w-2/5 bg-black z-20 h-full p-10' ref={node}>
+    <div className='text-white bg-sidebar h-full min-h-screen w-full fixed top-0 left-0 z-10'>
+      <div
+        className='lg:w-1/4 md:w-2/5 w-3/5 bg-black z-20 h-full p-10'
+        ref={node}
+      >
         <div className='flex flex-col justify-between h-full'>
           <div>
             <div

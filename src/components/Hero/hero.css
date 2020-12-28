@@ -10,6 +10,7 @@
   width: 700px;
   position: absolute;
   left: -160px;
+  bottom: 30px;
 }
 
 .watch-item {
@@ -97,6 +98,30 @@
   }
   .logo-header {
     left: 41%;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .hero-desc {
+    width: 400px;
+  }
+  .logo-header {
+    left: 38%;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .hero-desc {
+    width: 300px;
+  }
+  .logo-header {
+    left: 35%;
+  }
+  .arrow-right {
+    display: none;
+  }
+  .arrow-left {
+    display: none;
   }
 }
 

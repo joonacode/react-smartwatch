@@ -28,20 +28,23 @@ function App() {
     }
   }, [isDarkMode])
   return (
-    <div
-      className={`h-full min-h-screen dark:bg-gray-900 text-black dark:text-white relative overflow-hidden`}
-    >
-      <Navbar toggleSidebar={toggleSidebar} isDarkMode={isDarkMode} />
-      {showSidebar && <Sidebar toggleSidebar={toggleSidebar} />}
-      <Hero />
-      <div className='bg-white dark:bg-gray-900 p-4 rounded-full shadow-2xl fixed md:right-16 md:bottom-14 right-5 bottom-5'>
-        <DarkModeSwitch
-          checked={isDarkMode}
-          onChange={toggleDarkMode}
-          size={30}
-        />
+    <>
+      <div
+        className={`h-full min-h-screen dark:bg-gray-900 text-black dark:text-white relative overflow-hidden`}
+      >
+        <Navbar toggleSidebar={toggleSidebar} isDarkMode={isDarkMode} />
+
+        <Hero />
+        <div className='bg-white dark:bg-gray-900 p-4 rounded-full shadow-2xl fixed md:right-16 md:bottom-14 right-5 bottom-5'>
+          <DarkModeSwitch
+            checked={isDarkMode}
+            onChange={toggleDarkMode}
+            size={30}
+          />
+        </div>
       </div>
-    </div>
+      {showSidebar && <Sidebar toggleSidebar={toggleSidebar} />}
+    </>
   )
 }
 
