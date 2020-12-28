@@ -58,34 +58,22 @@ const Hero = () => {
         <div className='img-hero relative'>
           <Slider {...settings2} asNavFor={nav1} ref={slider2}>
             <div className='focus:outline-none'>
-              <LazyLoadImage
-                alt='IMGwristwatch'
-                src={IMGwristwatchWhite} // use normal <img> attributes as props
-              />
+              <LazyLoadImage alt='IMGwristwatch' src={IMGwristwatchWhite} />
             </div>
             <div className='focus:outline-none'>
-              <LazyLoadImage
-                alt='IMGwristwatch'
-                src={IMGwristwatchDark} // use normal <img> attributes as props
-              />
+              <LazyLoadImage alt='IMGwristwatch' src={IMGwristwatchDark} />
             </div>
             <div className='focus:outline-none'>
-              <LazyLoadImage
-                alt='IMGwristwatch'
-                src={IMGwristwatchWhite} // use normal <img> attributes as props
-              />
+              <LazyLoadImage alt='IMGwristwatch' src={IMGwristwatchWhite} />
             </div>
             <div className='focus:outline-none'>
-              <LazyLoadImage
-                alt='IMGwristwatch'
-                src={IMGwristwatchDark} // use normal <img> attributes as props
-              />
+              <LazyLoadImage alt='IMGwristwatch' src={IMGwristwatchDark} />
             </div>
             <div className='focus:outline-none'>
-              <LazyLoadImage
-                alt='IMGwristwatch'
-                src={IMGwristwatchWhite} // use normal <img> attributes as props
-              />
+              <LazyLoadImage alt='IMGwristwatch' src={IMGwristwatchWhite} />
+            </div>
+            <div className='focus:outline-none'>
+              <LazyLoadImage alt='IMGwristwatch' src={IMGwristwatchDark} />
             </div>
           </Slider>
           <span
