@@ -1,5 +1,6 @@
 import React from 'react'
 import { IMGSwristwatchDark, IMGSwristwatchWhite } from '../../assets'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const WatchItem = ({ isDark }) => {
   if (isDark) {
@@ -9,7 +10,10 @@ const WatchItem = ({ isDark }) => {
           <h5 className='font-bold text-black dark:text-white sm:text-2xl text-lg'>
             Dark
           </h5>
-          <img src={IMGSwristwatchDark} alt='imgs' />
+          <LazyLoadImage
+            alt='IMGwristwatch'
+            src={IMGSwristwatchDark} // use normal <img> attributes as props
+          />
         </div>
       </div>
     )
@@ -20,7 +24,10 @@ const WatchItem = ({ isDark }) => {
         <h5 className='font-bold text-black dark:text-white sm:text-2xl text-lg'>
           White
         </h5>
-        <img src={IMGSwristwatchWhite} alt='imgs' />
+        <LazyLoadImage
+          alt='IMGwristwatch'
+          src={IMGSwristwatchWhite} // use normal <img> attributes as props
+        />
       </div>
     </div>
   )

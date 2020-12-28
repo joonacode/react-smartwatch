@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import { IMGwristwatchDark, IMGwristwatchWhite } from '../../assets'
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import WatchItem from '../WatchItem'
 import './hero.css'
 
@@ -41,7 +42,7 @@ const Hero = () => {
   }
   return (
     <div className='container mx-auto lg:px-20 px-5 min-h-screen flex items-center justify-center hero-container'>
-      <div className='flex md:justify-around md:flex-row flex-col justify-center items-center'>
+      <div className='flex md:justify-around relative md:flex-row flex-col justify-center items-center'>
         <div className='md:block flex flex-col justify-center items-center md:mb-40 mb-0'>
           <h1 className='font-extrabold sm:text-6xl text-4xl mb-3 font-markh'>
             Smartwatch
@@ -56,23 +57,35 @@ const Hero = () => {
         </div>
         <div className='img-hero relative'>
           <Slider {...settings2} asNavFor={nav1} ref={slider2}>
-            <div>
-              <img src={IMGwristwatchWhite} className='' alt='IMGwristwatch' />
+            <div className='focus:outline-none'>
+              <LazyLoadImage
+                alt='IMGwristwatch'
+                src={IMGwristwatchWhite} // use normal <img> attributes as props
+              />
             </div>
-            <div>
-              <img src={IMGwristwatchDark} className='' alt='IMGwristwatch' />
+            <div className='focus:outline-none'>
+              <LazyLoadImage
+                alt='IMGwristwatch'
+                src={IMGwristwatchDark} // use normal <img> attributes as props
+              />
             </div>
-            <div>
-              <img src={IMGwristwatchWhite} className='' alt='IMGwristwatch' />
+            <div className='focus:outline-none'>
+              <LazyLoadImage
+                alt='IMGwristwatch'
+                src={IMGwristwatchWhite} // use normal <img> attributes as props
+              />
             </div>
-            <div>
-              <img src={IMGwristwatchDark} className='' alt='IMGwristwatch' />
+            <div className='focus:outline-none'>
+              <LazyLoadImage
+                alt='IMGwristwatch'
+                src={IMGwristwatchDark} // use normal <img> attributes as props
+              />
             </div>
-            <div>
-              <img src={IMGwristwatchWhite} className='' alt='IMGwristwatch' />
-            </div>
-            <div>
-              <img src={IMGwristwatchDark} className='' alt='IMGwristwatch' />
+            <div className='focus:outline-none'>
+              <LazyLoadImage
+                alt='IMGwristwatch'
+                src={IMGwristwatchWhite} // use normal <img> attributes as props
+              />
             </div>
           </Slider>
           <span

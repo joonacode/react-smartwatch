@@ -5,7 +5,7 @@ const Navbar = ({ toggleSidebar, isDarkMode }) => {
   return (
     <div className='container mx-auto px-5 pt-5'>
       <div className='flex items-center justify-between'>
-        <div>
+        <div className='nav-btn'>
           <img
             src={isDarkMode ? ICMenuWhite : ICMenu}
             className='w-8 h-8 cursor-pointer'
@@ -15,21 +15,21 @@ const Navbar = ({ toggleSidebar, isDarkMode }) => {
         </div>
         <div className='hidden justify-between lg:flex'>
           <div className='flex items-center'>
-            <a href='/' className='no-underline mr-7 font-markr'>
+            <span className='no-underline cursor-pointer mr-7 font-markr'>
               Home
-            </a>
-            <a href='/' className='no-underline mr-7 font-markr'>
+            </span>
+            <span className='no-underline cursor-pointer mr-7 font-markr'>
               Smartphone
-            </a>
-            <a href='/' className='no-underline mr-7 font-markr'>
+            </span>
+            <span className='no-underline cursor-pointer mr-7 font-markr'>
               Store
-            </a>
-            <button className='px-3 py-2 bg-red-300 font-light text-white focus:outline-none font-markr'>
+            </span>
+            <button className='px-3 py-2 bg-red-300 font-light hover:bg-red-400 text-white focus:outline-none font-markr'>
               Buy Now
             </button>
           </div>
         </div>
-        <div className='logo-header'>
+        <div className='logo-header cursor-pointer'>
           <img
             src={isDarkMode ? IMGLogoWhite : IMGLogo}
             className='h-9'

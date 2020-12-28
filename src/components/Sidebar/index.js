@@ -32,15 +32,9 @@ const Sidebar = ({ toggleSidebar }) => {
               <FaTimes />
             </div>
             <div className='flex flex-col clear-right mt-20 space-y-7'>
-              <a href='/' className='text-2xl'>
-                Home
-              </a>
-              <a href='/' className='text-2xl'>
-                Smartphone
-              </a>
-              <a href='/' className='text-2xl'>
-                Store
-              </a>
+              <span className='text-2xl cursor-pointer'>Home</span>
+              <span className='text-2xl cursor-pointer'>Smartphone</span>
+              <span className='text-2xl cursor-pointer'>Store</span>
             </div>
           </div>
           <div>
