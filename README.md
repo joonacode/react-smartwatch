@@ -63,3 +63,4 @@ Project Link: [https://github.com/joonacode/react-smartwatch](https://github.com
 ## Acknowledgements
 * [React toggle dark mode](https://www.npmjs.com/package/react-toggle-dark-mode)
 * [React slick](https://react-slick.neostack.com)
+* [React lazy load image component](https://www.npmjs.com/package/react-lazy-load-image-component)
