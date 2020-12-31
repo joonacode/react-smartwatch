@@ -4,7 +4,8 @@
   </a>
 
   <h1 align="center">React Smartwatch</h3>
-
+Practice slicing web design into a website page with Tailwindcss. Design by <a href="https://dribbble.com/m4st3rmiau">Mauricio Lopez</a>
+<br/ >
   <p align="center">
     <br />
     <a href="https://joonacode.github.io/react-smartwatch/">View Demo</a>
