@@ -15,7 +15,7 @@ const Sidebar = ({ toggleSidebar }) => {
     return () => {
       document.removeEventListener('mousedown', handleClick)
     }
-  }, [])
+  }, [toggleSidebar])
 
   return (
     <div className='text-white bg-sidebar h-full min-h-screen w-full fixed top-0 left-0 z-10'>
