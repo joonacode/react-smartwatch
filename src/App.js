@@ -7,7 +7,7 @@ function App() {
   const toggleSidebar = () => setShowSidebar(!showSidebar)
 
   const [isDarkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem('DARK_MODE')),
+    JSON.parse(localStorage.getItem('DARK_MODE')) || true,
   )
 
   const toggleDarkMode = (checked) => {
